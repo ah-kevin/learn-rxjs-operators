@@ -1,6 +1,9 @@
 {
   "gitbook": "3.1.1",
-  "title": "Learn RxJS",
+  "title": "学习 RxJS 操作符",
+  "structure": {
+    "readme": "index.md"
+  },
   "plugins": [
     "include-codeblock",
     "advanced-emoji",
