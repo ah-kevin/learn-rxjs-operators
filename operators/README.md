@@ -88,7 +88,7 @@ RxJS 5 操作符的完整列表，每个操作符都有着清晰的解释、相�
 
 :star: - *常用*
 
-### 额外的资源
+### 其他资源
 
 * [什么是操作符？](http://reactivex.io/rxjs/manual/overview.html#operators) :newspaper: - Official Docs
 * [操作符是什么？](https://egghead.io/lessons/rxjs-what-rxjs-operators-are) :video_camera: :dollar: - André Staltz
