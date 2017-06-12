@@ -1,11 +1,11 @@
-# RxJS 5 Operators By Example
+# 通过示例来学习 RxJS 5 操作符
 
-A complete list of RxJS 5 operators with clear explanations, relevant resources, and executable examples.
+RxJS 5 操作符的完整列表，每个操作符都有着清晰的解释、相关资源和可执行的示例。
 
-*[Prefer a complete list in alphabetical order?](complete.md)*
+*[更喜欢按字母顺序排列的完整列表？](complete.md)*
 
-### Contents (By Operator Type)
-* [Combination](combination/README.md)
+### 内容 (按操作符类型)
+* [组合](combination/README.md)
     * [combineAll](combination/combineall.md)
     * [combineLatest](combination/combinelatest.md) :star:
     * [concat](combination/concat.md) :star:
@@ -17,10 +17,10 @@ A complete list of RxJS 5 operators with clear explanations, relevant resources,
     * [startWith](combination/startwith.md) :star:
     * [withLatestFrom](combination/withlatestfrom.md) :star:
     * [zip](combination/zip.md)
-* [Conditional](conditional/README.md)
+* [条件](conditional/README.md)
     * [defaultIfEmpty](conditional/defaultifempty.md)
     * [every](conditional/every.md)
-* [Creation](creation/README.md)
+* [创建](creation/README.md)
     * [create](creation/create.md)
     * [empty](creation/empty.md)
     * [from](creation/from.md) :star:
@@ -31,11 +31,11 @@ A complete list of RxJS 5 operators with clear explanations, relevant resources,
     * [range](creation/range.md)
     * [throw](creation/throw.md)
     * [timer](creation/timer.md)
-* [Error Handling](error_handling/README.md)
+* [错误处理](error_handling/README.md)
     * [catch](error_handling/catch.md) :star:
     * [retry](error_handling/retry.md)
     * [retryWhen](error_handling/retrywhen.md)
-* [Filtering](filtering/README.md)
+* [过滤](filtering/README.md)
     * [debounce](filtering/debounce.md)
     * [debounceTime](filtering/debouncetime.md) :star:
     * [distinctUntilChanged](filtering/distinctuntilchanged.md) :star:
@@ -53,11 +53,11 @@ A complete list of RxJS 5 operators with clear explanations, relevant resources,
     * [takeWhile](filtering/takewhile.md)
     * [throttle](filtering/throttle.md)
     * [throttleTime](filtering/throttletime.md)
-* [Multicasting](multicasting/README.md)
+* [多播](multicasting/README.md)
     * [multicast](multicasting/multicast.md)
     * [publish](multicasting/publish.md)
     * [share](multicasting/share.md) :star:
-* [Transformation](transformation/README.md)
+* [转换](transformation/README.md)
     * [buffer](transformation/buffer.md)
     * [bufferCount](transformation/buffercount.md)
     * [bufferTime](transformation/buffertime.md) :star:
@@ -79,15 +79,16 @@ A complete list of RxJS 5 operators with clear explanations, relevant resources,
     * [windowTime](transformation/windowtime.md)
     * [windowToggle](transformation/windowtoggle.md)
     * [windowWhen](transformation/windowwhen.md)
-* [Utility](utility/README.md)
+* [工具](utility/README.md)
     * [do](utility/do.md) :star:
     * [delay](utility/delay.md)
     * [delayWhen](utility/delaywhen.md)
     * [let](utility/let.md)
     * [toPromise](utility/topromise.md)
 
-:star: - *commonly used*
+:star: - *常用*
 
-### Additional Resources
-* [What Are Operators?](http://reactivex.io/rxjs/manual/overview.html#operators) :newspaper: - Official Docs
-* [What Operators Are](https://egghead.io/lessons/rxjs-what-rxjs-operators-are) :video_camera: :dollar: - André Staltz
+### 额外的资源
+
+* [什么是操作符？](http://reactivex.io/rxjs/manual/overview.html#operators) :newspaper: - Official Docs
+* [操作符是什么？](https://egghead.io/lessons/rxjs-what-rxjs-operators-are) :video_camera: :dollar: - André Staltz
