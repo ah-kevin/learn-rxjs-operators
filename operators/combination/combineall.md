@@ -41,7 +41,7 @@ const subscribe = combined.subscribe(val => console.log(val));
 
 ### 其他资源
 
-* [combineAll](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-combineAll) :newspaper: - 官方文档
+* [combineAll](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-combineAll) :newspaper: - 官方文档
 
 ---
 > :file_folder: 源码:  [https://github.com/ReactiveX/rxjs/blob/master/src/operator/combineAll.ts](https://github.com/ReactiveX/rxjs/blob/master/src/operator/combineAll.ts)

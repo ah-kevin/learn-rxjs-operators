@@ -88,7 +88,7 @@ const subscribe = source.subscribe(val => console.log('Example: Source never com
 
 ### 其他资源
 
-* [concat](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-concat) :newspaper: - 官方文档
+* [concat](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-concat) :newspaper: - 官方文档
 * [组合操作符: concat, startWith](https://egghead.io/lessons/rxjs-combination-operators-concat-startwith?course=rxjs-beyond-the-basics-operators-in-depth) :video_camera: :dollar: - André Staltz
 
 ---
