@@ -1,9 +1,15 @@
 # Summary
 
-### Learn RxJS
+--
 
-* [Operators](/operators/README.md)
-    * [Combination](/operators/combination/README.md)
+* [学习 RxJS 操作符](https://github.com/RxJS-CN/learn-rxjs-operators)
+
+--
+
+### 学习 RxJS 
+
+* [操作符](/operators/README.md)
+    * [组合](/operators/combination/README.md)
         * [combineAll](/operators/combination/combineall.md)
         * [combineLatest](/operators/combination/combinelatest.md)
         * [concat](/operators/combination/concat.md)
@@ -16,10 +22,10 @@
         * [startWith](/operators/combination/startwith.md)
         * [withLatestFrom](/operators/combination/withlatestfrom.md)
         * [zip](/operators/combination/zip.md)
-    * [Conditional](/operators/conditional/README.md)
+    * [条件](/operators/conditional/README.md)
         * [defaultIfEmpty](/operators/conditional/defaultifempty.md)
         * [every](/operators/conditional/every.md)
-    * [Creation](/operators/creation/README.md)
+    * [创建](/operators/creation/README.md)
         * [create](/operators/creation/create.md)
         * [empty](/operators/creation/empty.md)
         * [from](/operators/creation/from.md)
@@ -30,16 +36,16 @@
         * [range](/operators/creation/range.md)
         * [throw](/operators/creation/throw.md)
         * [timer](/operators/creation/timer.md)
-    * [Error Handling](/operators/error_handling/README.md)
+    * [错误处理](/operators/error_handling/README.md)
         * [catch](/operators/error_handling/catch.md)
         * [retry](/operators/error_handling/retry.md)
         * [retryWhen](/operators/error_handling/retrywhen.md)
-    * [Multicasting](/operators/multicasting/README.md)
+    * [多播](/operators/multicasting/README.md)
         * [cache](/operators/multicasting/cache.md)
         * [publish](/operators/multicasting/publish.md)
         * [multicast](/operators/multicasting/multicast.md)
         * [share](/operators/multicasting/share.md)
-    * [Filtering](/operators/filtering/README.md)
+    * [过滤](/operators/filtering/README.md)
         * [debounce](/operators/filtering/debounce.md)
         * [debounceTime](/operators/filtering/debouncetime.md)
         * [distinctUntilChanged](/operators/filtering/distinctuntilchanged.md)
@@ -57,7 +63,7 @@
         * [takeWhile](/operators/filtering/takewhile.md)
         * [throttle](/operators/filtering/throttle.md)
         * [throttleTime](/operators/filtering/throttletime.md)
-    * [Transformation](/operators/transformation/README.md)
+    * [转换](/operators/transformation/README.md)
         * [buffer](/operators/transformation/buffer.md)
         * [bufferCount](/operators/transformation/buffercount.md)
         * [bufferTime](/operators/transformation/buffertime.md)
@@ -79,16 +85,16 @@
         * [windowTime](/operators/transformation/windowtime.md)
         * [windowToggle](/operators/transformation/windowtoggle.md)
         * [windowWhen](/operators/transformation/windowwhen.md)
-    * [Utility](/operators/utility/README.md)
+    * [工具](/operators/utility/README.md)
         * [do](/operators/utility/do.md)
         * [delay](/operators/utility/delay.md)
         * [delayWhen](/operators/utility/delaywhen.md)
         * [dematerialize](/operators/utility/dematerialize.md)
         * [let](/operators/utility/let.md)
         * [toPromise](/operators/utility/topromise.md)
-    * [Full Listing](/operators/complete.md)
-* [Recipes](/recipes/README.md)
-   * [Smart Counter](/recipes/smartcounter.md)
-* [Concepts](/concepts/README.md)
+    * [完整列表](/operators/complete.md)
+* [食谱](/recipes/README.md)
+   * [智能计数器](/recipes/smartcounter.md)
+* [概念](/concepts/README.md)
 
 
