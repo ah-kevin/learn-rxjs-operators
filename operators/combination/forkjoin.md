@@ -1,16 +1,18 @@
 # forkJoin
-#### signature: `forkJoin(...args, selector : function): Observable`
 
-## When all observables complete emit the last value from each.
+#### 签名: `forkJoin(...args, selector : function): Observable`
 
----
-:bulb:  If you want corresponding emissions from multiple observables as they occur, try [zip](zip.md)!
+## 当所有 observables 完成时发出每个 observable 的最新值。
 
 ---
 
-### Examples
+:bulb:  如果你想要多个 observables 按发出顺序相对应的值的组合，试试 [zip](zip.md)！
 
-##### Example 1: Making variable number of requests
+---
+
+### 示例
+
+##### 示例 1: 发起可变数量的请求
 
 ( [jsBin](http://jsbin.com/taziyomusa/1/edit?js,console) | [jsFiddle](https://jsfiddle.net/btroncone/5fj77920/) )
 
@@ -18,31 +20,31 @@
 const myPromise = val => new Promise(resolve => setTimeout(() => resolve(`Promise Resolved: ${val}`), 5000))
 
 /*
-  when all observables complete, give the last
-  emitted value from each as an array
+  当所有 observables 完成是，将每个 observable 
+  的最新值作为数组发出
 */
 const example = Rx.Observable.forkJoin(
-  //emit 'Hello' immediately
+  // 立即发出 'Hello'
   Rx.Observable.of('Hello'),
-  //emit 'World' after 1 second
+  // 1秒后发出 'World'
   Rx.Observable.of('World').delay(1000),
-  //emit 0 after 1 second
+  // 1秒后发出0
   Rx.Observable.interval(1000).take(1),
-  //emit 0...1 in 1 second interval
+  // 以1秒的时间间隔发出0和1
   Rx.Observable.interval(1000).take(2),
-  //promise that resolves to 'Promise Resolved' after 5 seconds
+  // 5秒后解析 'Promise Resolved' 的 promise
   myPromise('RESULT')
 );
-//output: ["Hello", "World", 0, 1, "Promise Resolved: RESULT"]
+//输出: ["Hello", "World", 0, 1, "Promise Resolved: RESULT"]
 const subscribe = example.subscribe(val => console.log(val));
 
-//make 5 requests
+// 发起5个请求
 const queue = Rx.Observable.of([1,2,3,4,5]);
-//emit array of all 5 results
+// 发出包含所有5个结果的数组
 const exampleTwo = queue
   .mergeMap(q => Rx.Observable.forkJoin(...q.map(myPromise)));
 /*
-  output:
+  输出:
   [
    "Promise Resolved: 1", 
    "Promise Resolved: 2", 
@@ -55,8 +57,9 @@ const subscribeTwo = exampleTwo.subscribe(val => console.log(val));
 ```
 
 
-### Additional Resources
-* [forkJoin](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-forkJoin) :newspaper: - Official docs
+### 其他资源
+
+* [forkJoin](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-forkJoin) :newspaper: - 官方文档
 
 ---
-> :file_folder: Source Code:  [https://github.com/ReactiveX/rxjs/blob/master/src/observable/ForkJoinObservable.ts](https://github.com/ReactiveX/rxjs/blob/master/src/observable/ForkJoinObservable.ts)
+> :file_folder: 源码:  [https://github.com/ReactiveX/rxjs/blob/master/src/observable/ForkJoinObservable.ts](https://github.com/ReactiveX/rxjs/blob/master/src/observable/ForkJoinObservable.ts)
