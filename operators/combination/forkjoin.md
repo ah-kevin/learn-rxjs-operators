@@ -59,7 +59,7 @@ const subscribeTwo = exampleTwo.subscribe(val => console.log(val));
 
 ### 其他资源
 
-* [forkJoin](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-forkJoin) :newspaper: - 官方文档
+* [forkJoin](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#static-method-forkJoin) :newspaper: - 官方文档
 
 ---
 > :file_folder: 源码:  [https://github.com/ReactiveX/rxjs/blob/master/src/observable/ForkJoinObservable.ts](https://github.com/ReactiveX/rxjs/blob/master/src/observable/ForkJoinObservable.ts)

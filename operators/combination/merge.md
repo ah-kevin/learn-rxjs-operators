@@ -57,7 +57,7 @@ const subscribe = example.subscribe(val => console.log(val));
 
 ### 其他资源
 
-* [merge](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-merge) :newspaper: - 官方文档
+* [merge](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-merge) :newspaper: - 官方文档
 * [使用 merge 处理多个流](https://egghead.io/lessons/rxjs-handling-multiple-streams-with-merge?course=step-by-step-async-javascript-with-rxjs) :video_camera: :dollar: - John Linquist
 * [使用 merge1 共享网络请求](https://egghead.io/lessons/rxjs-reactive-programming-sharing-network-requests-with-rxjs-merge?course=introduction-to-reactive-programming) :video_camera: :dollar: - André Staltz
 * [组合操作符: merge](https://egghead.io/lessons/rxjs-combination-operator-merge?course=rxjs-beyond-the-basics-operators-in-depth) :video_camera: :dollar: - André Staltz
