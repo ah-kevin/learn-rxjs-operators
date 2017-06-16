@@ -2,7 +2,7 @@
 
 #### 签名: `create(subscribe: function)`
 
-## 使用给定的 subscription 函数来创建 observable 。
+## 使用给定的订阅函数来创建 observable 。
 
 ### 示例
 
@@ -12,7 +12,7 @@
 
 ```js
 /*
-  创建在 subscription 中发出 'Hello' 和 'World' 的 observable 。
+  创建在订阅函数中发出 'Hello' 和 'World' 的 observable 。
 */
 const hello = Rx.Observable.create(function(observer) {
   observer.next('Hello');
@@ -29,7 +29,7 @@ const subscribe = hello.subscribe(val => console.log(val));
 
 ```js
 /*
-  Increment value every 1s, emit even numbers.
+  每秒自增值并且只发出偶数
 */
 const evenNumbers = Rx.Observable.create(function(observer) {
   let value = 0;
