@@ -1,27 +1,29 @@
 # skip
-#### signature: `skip(the: Number): Observable`
 
-## Skip the provided number of emitted values.
+#### 签名: `skip(the: Number): Observable`
 
-### Examples
+## 跳过N个(由参数提供)发出值。
 
-##### Example 1: Skipping values before emission
+### 示例
+
+##### 示例 1: 在发送前跳过N个值
 
 ( [jsBin](http://jsbin.com/hacepudabi/1/edit?js,console) | [jsFiddle](https://jsfiddle.net/btroncone/ar1eqbya/) )
 
 ```js
-//emit every 1s
+// 每1秒发出值
 const source = Rx.Observable.interval(1000);
-//skip the first 5 emitted values
+// 跳过前5个发出值
 const example = source.skip(5);
-//output: 5...6...7...8........
+// 输出: 5...6...7...8........
 const subscribe = example.subscribe(val => console.log(val));
 ```
 
 
-### Additional Resources
-* [skip](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-skip) :newspaper: - Official docs
-* [Filtering operator: take, first, skip](https://egghead.io/lessons/rxjs-filtering-operators-take-first-skip?course=rxjs-beyond-the-basics-operators-in-depth) :video_camera: :dollar: - André Staltz
+### 其他资源
+
+* [skip](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-skip) :newspaper: - 官方文档
+* [过滤操作符: take, first, skip](https://egghead.io/lessons/rxjs-filtering-operators-take-first-skip?course=rxjs-beyond-the-basics-operators-in-depth) :video_camera: :dollar: - André Staltz
 
 ---
-> :file_folder: Source Code:  [https://github.com/ReactiveX/rxjs/blob/master/src/operator/skip.ts](https://github.com/ReactiveX/rxjs/blob/master/src/operator/skip.ts)
+> :file_folder: 源码:  [https://github.com/ReactiveX/rxjs/blob/master/src/operator/skip.ts](https://github.com/ReactiveX/rxjs/blob/master/src/operator/skip.ts)
