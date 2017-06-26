@@ -52,7 +52,7 @@ const example = source.concatMap(val => examplePromise(val), result => `${result
 const subscribe = example.subscribe(val => console.log('Example w/ Selector:', val));
 ```
 
-##### Example 4: Illustrating difference between concatMap and mergeMap
+##### 示例 4: 说明 concatMap 和 mergeMap 之间的区别
 
 ( [jsBin](http://jsbin.com/kiwuvamafo/edit?js,console) | [jsFiddle](https://jsfiddle.net/btroncone/3xd74d89/) )
 
