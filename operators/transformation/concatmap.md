@@ -72,7 +72,7 @@ const mergeMapSub = Rx.Observable.of(2000, 1000)
 ### 其他资源
 
 * [concatMap](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-concatMap) :newspaper: - 官方文档
-* [使用 RxJS concatMap 来映射并连接高阶 observables](https://egghead.io/lessons/rxjs-use-rxjs-concatmap-to-map-and-concat-high-order-observables?course=use-higher-order-observables-in-rxjs-effectively) :video_camera: :dollar: - André Staltz
+* [使用 RxJS 的 concatMap 操作符来映射并连接高阶 observables](https://egghead.io/lessons/rxjs-use-rxjs-concatmap-to-map-and-concat-high-order-observables?course=use-higher-order-observables-in-rxjs-effectively) :video_camera: :dollar: - André Staltz
 
 ---
 > :file_folder: 源码:  [https://github.com/ReactiveX/rxjs/blob/master/src/operator/concatMap.ts](https://github.com/ReactiveX/rxjs/blob/master/src/operator/concatMap.ts)
