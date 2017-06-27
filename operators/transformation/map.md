@@ -1,43 +1,46 @@
 # map
-#### signature: `map(project: Function, thisArg: any): Observable`
 
-## Apply projection with each value from source.
+#### 签名: `map(project: Function, thisArg: any): Observable`
 
-### Examples
+## 对源 observable 的每个值应用投射函数。
 
-##### Example 1: Add 10 to each number
+### 示例
+
+##### 示例 1: 每个数字加10
 
 ( [jsBin](http://jsbin.com/padasukano/1/edit?js,console) | [jsFiddle](https://jsfiddle.net/btroncone/yd38awLa/) )
 
 ```js
-//emit (1,2,3,4,5)
+// 发出 (1,2,3,4,5)
 const source = Rx.Observable.from([1,2,3,4,5]);
-//add 10 to each value
+// 每个数字加10
 const example = source.map(val => val + 10);
-//output: 11,12,13,14,15
+// 输出: 11,12,13,14,15
 const subscribe = example.subscribe(val => console.log(val));
 ```
 
-##### Example 2: Map to single property
+##### 示例 2: 映射成单一属性
 
 ( [jsBin](http://jsbin.com/detozumale/1/edit?js,console) | [jsFiddle](https://jsfiddle.net/btroncone/tdLd5tgc/) )
 
 ```js
-//emit ({name: 'Joe', age: 30}, {name: 'Frank', age: 20},{name: 'Ryan', age: 50})
+// 发出 ({name: 'Joe', age: 30}, {name: 'Frank', age: 20},{name: 'Ryan', age: 50})
 const source = Rx.Observable.from([{name: 'Joe', age: 30}, {name: 'Frank', age: 20},{name: 'Ryan', age: 50}]);
-//grab each persons name
+// 提取每个 person 的 name 属性
 const example = source.map(person => person.name);
-//output: "Joe","Frank","Ryan"
+// 输出: "Joe","Frank","Ryan"
 const subscribe = example.subscribe(val => console.log(val));
 ```
 
-### Related Recipes
-* [Smart Counter](../../recipes/smartcounter.md)
+### 相关食谱
 
-### Additional Resources
-* [map](http://reactivex-rxjs5.surge.sh/function/index.html#static-function-map) :newspaper: - Official docs
+* [智能计数器](../../recipes/smartcounter.md)
+
+### 其他资源
+
+* [map](http://cn.rx.js.org/class/es6/Observable.js~Observable.html#instance-method-map) :newspaper: - 官方文档
 * [map vs flatMap](https://egghead.io/lessons/rxjs-rxjs-map-vs-flatmap) :video_camera: - Ben Lesh
-* [Transformation operator: map and mapTo](https://egghead.io/lessons/rxjs-transformation-operator-map-and-mapto?course=rxjs-beyond-the-basics-operators-in-depth) :video_camera: :dollar: - André Staltz
+* [转换操作符: map 和 mapTo](https://egghead.io/lessons/rxjs-transformation-operator-map-and-mapto?course=rxjs-beyond-the-basics-operators-in-depth) :video_camera: :dollar: - André Staltz
 
 ---
-> :file_folder: Source Code:  [https://github.com/ReactiveX/rxjs/blob/master/src/operator/map.ts](https://github.com/ReactiveX/rxjs/blob/master/src/operator/map.ts)
+> :file_folder: 源码:  [https://github.com/ReactiveX/rxjs/blob/master/src/operator/map.ts](https://github.com/ReactiveX/rxjs/blob/master/src/operator/map.ts)
