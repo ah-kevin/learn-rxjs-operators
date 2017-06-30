@@ -1,3 +1,3 @@
-# Concepts
+# 概念
 
-*Coming soon...*
+*即将推出...*
