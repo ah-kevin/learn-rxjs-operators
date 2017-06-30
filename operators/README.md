@@ -5,6 +5,7 @@ RxJS 5 操作符的完整列表，每个操作符都有着清晰的解释、相�
 *[更喜欢按字母顺序排列的完整列表？](complete.md)*
 
 ### 内容 (按操作符类型)
+
 * [组合](combination/README.md)
     * [combineAll](combination/combineall.md)
     * [combineLatest](combination/combinelatest.md) :star:
@@ -90,5 +91,5 @@ RxJS 5 操作符的完整列表，每个操作符都有着清晰的解释、相�
 
 ### 其他资源
 
-* [什么是操作符？](http://reactivex.io/rxjs/manual/overview.html#operators) :newspaper: - Official Docs
+* [什么是操作符？](http://cn.rx.js.org/manual/overview.html#29) :newspaper: - 官方文档
 * [操作符是什么？](https://egghead.io/lessons/rxjs-what-rxjs-operators-are) :video_camera: :dollar: - André Staltz
