@@ -31,10 +31,6 @@ RxJS 的清晰示例、解释及资源。
 
 [按字母顺序排列的完整列表](/operators/complete.md)
 
-##### 翻译示例
-
-* [原始的 RxJS 5 操作符示例 - 中文版](https://gist.github.com/DrakeLeung/ecbcedab8534d4486a888ef777a76140) - Drake Leung
-
 #### 概念
 
 如果对 Observables 背后的工作原理没有扎实的基础知识，很容易感觉 RxJS 就像是“魔法”一般。本章节有助于巩固所需的主要概念，以便对响应式编程和 Observables 得心应手。
@@ -74,6 +70,10 @@ RxJS 和响应式编程的新手？除了本网站上发现的内容，这些优
 * [Rx Visualizer - Rx Observables 的动画游乐场](https://rxviz.com) - Misha Moroshko
 
 *对 RxJS 4 感兴趣？ 请查阅 [Denis Stoyanov's](https://github.com/xgrommx) 超棒的 [电子书](https://xgrommx.github.io/rx-book/)!*
+
+## 翻译
+
+  * [简体中文](https://rxjs-cn.github.io/learn-rxjs-operators)
 
 ### 参考文献注
 
