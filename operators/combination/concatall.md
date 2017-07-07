@@ -25,7 +25,7 @@
 // 每2秒发出值
 const source = Rx.Observable.interval(2000);
 const example = source
-  // 为了演示，增加10并作为 observable 范湖
+  // 为了演示，增加10并作为 observable 返回
   .map(val => Rx.Observable.of(val + 10))
   // 合并内部 observables 的值
   .concatAll();
